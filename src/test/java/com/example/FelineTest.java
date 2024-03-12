@@ -16,7 +16,7 @@ public class FelineTest {
     public void eatMeatIsNotEmpty() throws Exception{
         boolean actual = feline.eatMeat().isEmpty();
 
-        assertTrue(!actual);
+        assertFalse(actual);
     }
 
     @Test

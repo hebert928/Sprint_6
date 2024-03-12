@@ -33,6 +33,6 @@ public class AlexTest {
     public void getKittensReturnZeroKittens() {
         int actual = alex.getKittens();
 
-        assertTrue(actual == 0);
+        assertEquals(0, actual);
     }
 }
